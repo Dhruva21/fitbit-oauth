@@ -8,7 +8,7 @@
 3. npm start (starts at localhost:3000)
 4. npm run build (if needed to create build directory)
 
-# Backend for FitBit Authorization
+# Backend for FitBit OAuth
 
 server.js ==> Entry point of the incoming 
 
