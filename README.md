@@ -2,7 +2,7 @@
 
 # Frontend for FitBit OAuth
 
-## Steps to Start local development frontend
+## Steps to Start frontend on localhost
 1. cd fitbit-frontend
 2. npm install
 3. npm start (starts at localhost:3000)
@@ -19,7 +19,7 @@ server.js ==> Entry point of the incoming
 - In App settings mentioned to port 4000 for redirect url
 
 ## API's available in express backend
-- '/api/authorize' --> Initiate OAutg flow - Redirect user to fitbit for authorization
+- '/api/authorize' --> Initiate OAuth flow - Redirect user to fitbit for authorization
 - '/api/callback' --> Handle the redirect after authorization - exchange the authorization code, redirects to frontend with auth code in url
 - '/api/fetchData' --> Fetch the person data after exchange access token success
 
@@ -30,4 +30,4 @@ server.js ==> Entry point of the incoming
 
 ## Set up the MongoDB 
 - Make sure MongoDB is installed on the machine and running locally in MongoDB Atlas Service
-- command: mongod --dbpath ~/data/db
+- command on macos: mongod --dbpath ~/data/db
